@@ -1,0 +1,28 @@
+//This is the basic default style we are using for other modals 
+.modal-dialog{
+    width: 50vw;   /* Occupy the 90% of the screen width */
+	height: 802px;
+	max-width: 40vw;
+ }
+
+//by default, react bootstrap modal has a css , we are overriding it with this
+//you can see the classname while inspecting the element
+//This class is used only for modal of edit comment
+.modal-dialog-editcomment{
+	height: 802px;
+	min-width: 40vw;
+	max-width: 60vw;
+}
+.modal-dialog-fileview-comment{
+	height: 802px;
+	min-width: 50vw;
+	max-width: 60vw;
+
+}
+
+.modal-dialog-editcompany{
+	height: 802px;
+	min-width: 40vw;
+	max-width: 60vw;
+}
+

@@ -1,0 +1,22 @@
+.table {
+	header {
+		display: none;
+	}
+}
+.table__actions-icon {
+	&:hover {
+		cursor: pointer;
+	}
+	margin: 0 10px;
+}
+
+.jEDPQU {
+	height: auto !important;
+}
+
+.edit-button {
+	color: #000;
+	&:hover {
+		color: #fff;
+	}
+}

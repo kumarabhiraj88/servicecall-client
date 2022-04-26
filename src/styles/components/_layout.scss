@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    min-height: calc(100vh - 62px);
+    grid-template-columns: 270px 3fr;
+    grid-template-areas: "sidebar contentside";
+  }
+  .mainContent {
+    grid-area: contentside;
+  }
+  
+  .removeSidebar {
+    .sidenav {
+      display: none;
+    }
+  }
+  
+  .parent-container {
+    background-color: #F5F5F5;
+  }
+  
+
+  .header{
+    background-color: #0973b9;
+   // background-color: #30b8e2;
+  }
+  .loggedinAs{
+    margin-right: 25px;
+    margin-top: 3px;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+  }
+
+  .Pagehead{
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }

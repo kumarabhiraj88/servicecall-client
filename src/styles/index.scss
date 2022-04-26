@@ -1,0 +1,66 @@
+@import './components/charts';
+@import './components/signin';
+@import './components/layout';
+@import './components/sidenav';
+@import './components/table';
+@import './components/modal';
+@import '~react-toastify/dist/ReactToastify.min.css';
+//@import "~bootstrap/scss/bootstrap";
+
+
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+.loader {
+	display: none;
+}
+
+.loading-indicator .loader {
+	display: block;
+	z-index: 9999999;
+}
+
+.pageContainer{
+	margin-top: 2%;
+}
+
+.Pagehead{
+	margin-bottom: 20px;
+}
+
+.searchBar{
+	width:95%;
+	float:left;
+}
+.download-table-xls-button{
+	float:left;
+	width:4%;
+	padding: 13px 0 7px;
+	border:none;
+	margin-left:1%;
+}
+
+
+
+	
+
+// .header {
+// 	margin-left: 20%;
+// }
+
+
+// .header {
+// 	position: fixed;
+// 	top: 0;
+// 	width: 100%;
+// 	z-index: 1000;
+// 	padding: 10px;
+// 	display: flex;
+// 	justify-content: space-between;
+// 	background-color: #343a40;
+// 	border-bottom: 1px solid #e4e4e4;
+// 	-webkit-box-shadow: 7px 10px 5px -10px #e4e4e4;
+// 	-moz-box-shadow: 7px 10px 5px -10px #e4e4e4;
+// 	box-shadow: 7px 10px 5px -10px #e4e4e4;
+//   }

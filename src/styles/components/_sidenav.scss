@@ -1,0 +1,75 @@
+.LinkStyle {
+  color: #FFFFFF;
+  /*border-bottom: 1px solid rgb(110, 110, 110);*/
+  padding: 20px;
+  text-decoration: none !important;
+  //text-transform: uppercase;
+  &:hover {
+    //color: rgb(160, 160, 160);
+    color:white;
+  }
+}
+
+.hide-LinkStyle {
+  display: none;
+}
+
+.is-active {
+  //border-left: 5px solid #fff;
+ // background-color: #3F51B5;
+ color: black;
+ font-weight: bold;
+}
+
+.sideNavHeader {
+  height: 90px;
+  position: relative;
+  color: #fff;
+  width: inherit;
+  background-color: #FFFFFF;
+  //background-color: #1e1e1e;
+
+}
+
+.sidenavIcon{
+  margin-right:15px;
+}
+.sidebarToggle{
+  color: #fff;
+}
+
+.mainlogo{
+  height: 80px;
+}
+
+.avatarStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.SideNavheaderText {
+  @extend .avatarStyle;
+  top: 95%;
+  left: 49%;
+}
+
+.sidenav {
+  position: fixed;
+  width: 270px;
+  height: 100vh;
+  background-color: #0973b9;
+  //background-color: #30b8e2;
+ // background-color: #7fc2ec;
+ //background-color: #343a40;
+  grid-area: sidebar;
+  top: 0;
+}
+
+
+.showSideBar{
+  margin-left: 270px;
+}
